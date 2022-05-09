@@ -2,9 +2,10 @@
   "name": "virtual-keyboard",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js --mode=production"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,10 @@
   },
   "homepage": "https://github.com/olgad21/virtual-keyboard#readme",
   "devDependencies": {
-    "eslint": "^8.14.0"
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
   }
 }
