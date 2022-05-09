@@ -1,0 +1,10 @@
+{
+  "env": {
+    "browser": true
+  },
+  "extends": "airbnb-base",
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "ignorePatterns": ["dist/index.js"]
+}
